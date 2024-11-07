@@ -1,9 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Titre de la page</title>
-  </head>
-  <body>
-    <!-- Contenu de la page -->
-  </body>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baptiste Le Corre - Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/profile.jpg" alt="Baptiste le Corre" class="profile-img">
+            <h1>Baptiste le Corre</h1>
+            <p>Community Manager & Passionné de Football</p>
+        </div>
+    </header>
+
+    <section class="bio">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <div class="bio-content">
+                <p>Je m'appelle Baptiste le Corre, né le 3 septembre 2004 à Saint-Germain-en-Laye. J'ai 20 ans et j'habite à Poissy, où j'ai grandi. Mes parents, Bruno et Corinne, ont 53 ans, et j'ai un petit frère, Thomas, qui aura 15 ans le 26 novembre. Je suis en couple avec Ninon depuis plus d'un an et demi.</p>
+                <img src="img/about-me.jpg" alt="Photo de Baptiste" class="bio-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="football">
+        <div class="container">
+            <h2>Mon parcours footballistique</h2>
+            <div class="football-content">
+                <p>Je pratique le football depuis l'âge de 6 ans. J'ai joué pendant 12 ans à l'AS Poissy où j'ai remporté plusieurs tournois et le championnat de U16 D1. J'ai également joué en U18 R2 et U20 R1, et me suis entraîné avec la National 2 de Poissy. Aujourd'hui, je joue en Séniors D2 à Villennes.</p>
+                <img src="img/football-action.jpg" alt="Football en action" class="football-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="container">
+            <h2>Mes expériences professionnelles</h2>
+            <div class="experience-content">
+                <p>Actuellement, je suis en alternance au FC Villennes Orgeval en tant que Community Manager. J'ai également travaillé en tant que stagiaire vendeur chez Lacoste à Parly 2, puis au Racing CFF en tant que stagiaire communication. J'ai aussi effectué un job d'été dans un restaurant d'entreprise.</p>
+                <img src="img/work-experience.jpg" alt="Expérience professionnelle" class="experience-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <p>Si vous avez des questions ou souhaitez discuter de futures opportunités, n'hésitez pas à me contacter via le formulaire ci-dessous.</p>
+            <form action="mailto:votre-email@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Portfolio créé par Baptiste Le Corre | 2024</p>
+        </div>
+    </footer>
+</body>
 </html>
